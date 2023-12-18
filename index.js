@@ -1,5 +1,9 @@
 console.log("Hello Test-Import!");
 
-export const getMyPackageName = () => {
+const getMyPackageName = () => {
   return "test-import...";
+};
+
+module.exports = {
+  getMyPackageName: getMyPackageName
 };
